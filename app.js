@@ -72,8 +72,40 @@ var capitolHill = new CookieStore('Capitol Hill',20, 38, 2.3);
 var alki = new CookieStore ('Alki', 2, 16, 4.6);
 
 renderHeaderRow();
-pike.listCookieAverage();
-seaTac.listCookieAverage();
-seattle.listCookieAverage();
-capitolHill.listCookieAverage();
-alki.listCookieAverage();
+
+// pike.listCookieAverage();
+// seaTac.listCookieAverage();
+// seattle.listCookieAverage();
+// capitolHill.listCookieAverage();
+// alki.listCookieAverage();
+
+var newStoreForm = document.getElementById('new_location');
+newStoreForm.addEventListener('submit', handleSubmit);
+
+var storeArray = [pike, seaTac, seattle, capitolHill, alki];
+
+function callListCookieAverage() {
+  for (var i = 0; i < storeArray.length; i++) {
+    storeArray[i].listCookieAverage();
+  }
+}
+callListCookieAverage();
+
+function handleSubmit (event) {
+  event.preventDefault();
+
+
+  var newStoreName = event.target.name_location.value;
+  var minimumCust = event.target.min_location.value;
+  var maximumCust = event.target.max_location.value;
+  var cookieAverage = event.target.avgCookie_location.value;
+
+  var newPlace = new CookieStore (newStoreName, minimumCust, maximumCust, cookieAverage);
+
+  storeArray.push(newPlace);
+
+  var store_body = document.getElementById('store_body');
+  store_body.textContent = '';
+
+  callListCookieAverage();
+}
