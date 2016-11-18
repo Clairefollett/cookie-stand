@@ -1,31 +1,21 @@
-<!DOCTYPE: html>
-<html>
-<header>
-  <nav>
-    <h1 class="border_">Salmon Cookies</h1>
-    <ul>
-      <li id="one">Contact Us</li>
-      <li id="two">FAQS</li>
-      <li id="three">Menu</li>
-      <li id="four">Join Our Team</li>
-    </ul>
-  </nav>
-</header>
-<body>
-<main>
-  <ul class="sub_banner">
-    <li class="cookie"><img src="frosted-cookie.jpg"></li>
-    <li><img src="http://placehold.it/280x375"></li>
-    <li><img src="http://placehold.it/280x375"></li>
-  </ul>
-  <div class="featured_banner">
-    <img src="http://placehold.it/480x375">
-  </div>
-   <h2>Featured Section Heading</h2>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dicta qui itaque expedita. Repellat quidem tempora repudiandae esse repellendus atque nulla consectetur, saepe nemo vero incidunt natus veritatis quod, est.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non repudiandae veritatis perspiciatis, magnam reiciendis suscipit quia explicabo veniam doloribus iste, dolorum nemo quo minima quidem ullam earum facilis reprehenderit.</p>
-    <button>Call to Action</button>
-</main>
-</body>
-<footer></footer>
-</html>
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px 0px 0px 10px;
+  text-align: center;
+  padding: 20px;
+  line-height: 5.0em;
+}
+.border_ {
+  border-width: thick;
+  border-style: solid;
+  border-top-color: red;
+  border-right-color: orange;
+  border-bottom-color: yellow;
+  border-left-color: green;
+  width: 170px;
+  float: left;
+}
+.cookie {
+  float: left;
+}
