@@ -1,31 +1,28 @@
-<!DOCTYPE: html>
-<html>
+<!DOCTYPE html>
 <header>
   <nav>
-    <h1 class="border_">Salmon Cookies</h1>
-    <ul>
-      <li id="one">Contact Us</li>
-      <li id="two">FAQS</li>
-      <li id="three">Menu</li>
-      <li id="four">Join Our Team</li>
+    <img src="frosted-cookie.jpg" width="200" height="70">
+    <ul class="nav_menu">
+      <li>Nav Item 1</li>
+      <li>Nav Item 2</li>
+      <li>Nav Item 3</li>
+      <li>Nav Item 4</li>
     </ul>
   </nav>
 </header>
-<body>
 <main>
+  <img src="http://placehold.it/960x450">
   <ul class="sub_banner">
-    <li class="cookie"><img src="frosted-cookie.jpg"></li>
-    <li><img src="http://placehold.it/280x375"></li>
-    <li><img src="http://placehold.it/280x375"></li>
+    <li><img src="http://placehold.it/300x375"></li>
+    <li><img src="http://placehold.it/300x375"></li>
+    <li><img src="http://placehold.it/300x375"></li>
   </ul>
   <div class="featured_banner">
-    <img src="http://placehold.it/480x375">
+    <img src="http://placehold.it/480x375"
   </div>
    <h2>Featured Section Heading</h2>
    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel dicta qui itaque expedita. Repellat quidem tempora repudiandae esse repellendus atque nulla consectetur, saepe nemo vero incidunt natus veritatis quod, est.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit non repudiandae veritatis perspiciatis, magnam reiciendis suscipit quia explicabo veniam doloribus iste, dolorum nemo quo minima quidem ullam earum facilis reprehenderit.</p>
     <button>Call to Action</button>
 </main>
-</body>
 <footer></footer>
-</html>
